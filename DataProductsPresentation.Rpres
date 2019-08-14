@@ -1,0 +1,57 @@
+
+========================================================
+author: Donovan Quimby
+date: August 2, 2019
+autosize: FALSE
+
+## Developing Data Products Final Project
+
+![](JhuDataProductsImage.jpg)
+
+
+Background Information
+========================================================
+This R shiny application provides the ability to view a scatter plot of the data
+contained in the R "attenu" dataset. The "attenu" provides various measurements recorded at 
+a number of observation stations for 23 earthquakes in California.
+
+The application will let you choose what variables to plot on the x and y axis as well as
+allowing you to display any combination of the seperate earthquakes.
+
+
+Sumarry of the Data
+========================================================
+The "attenu"" data set contains 182 observations of 5 variables
+
+```{r}
+data("attenu")
+dim(attenu)
+
+```
+
+A sample of the dataset showing the first 3 rows can be seen below
+
+```{r}
+
+head(attenu,3)
+```
+
+Screen Shot of Application
+========================================================
+
+A screenshot of the application can be seen below. In this example the measured 
+acceleration is plotted against distance from the epicenter of all 23 earthquakes.
+
+To change what is plotted, the user can select the desired plot attributes 
+and press the "Apply Changes" button.
+
+![](screnshotApp.jpg)
+
+
+Where To Find It
+========================================================
+The application can be found at the following location:
+
+https://donovanquimby.shinyapps.io/finalProject/
+
+
