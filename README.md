@@ -2,7 +2,7 @@
 Coursera Data Science Developing Data Products Final Project
 
 ## Description
-The R shiny application in this repo provides the ability to view a scatter plot of the data contained in the R “attenu” dataset. The “attenu” provides various measurements recorded at a number of observation stations for 23 earthquakes in California.
+The R shiny application in this repo provides the ability to view a scatter plot of the data contained in the R “attenu” dataset. The “attenu” dataset provides various measurements recorded at a number of observation stations for 23 earthquakes in California.
 
 ## How to Use
 The application can be used by running the application from with Rstudio or visiting the following website https://donovanquimby.shinyapps.io/finalProject/
